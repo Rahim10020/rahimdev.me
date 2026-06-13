@@ -2,7 +2,6 @@ import {
   ImageSection,
   Project,
   ProjectDetail,
-  Service,
   SocialLink,
 } from "./types";
 
@@ -34,42 +33,6 @@ export const socialLinks: SocialLink[] = [
     name: "Facebook",
     url: "https://www.facebook.com/",
     icon: "facebook",
-  },
-];
-
-export const services: Service[] = [
-  {
-    id: "1",
-    title: "Web Development",
-    description: "Modern web apps — Django, Next.js & React.",
-    icon: "globe",
-    priceRangeUSD: "$500 – $2,000",
-    priceRangeFCFA: "300k – 1.2M FCFA",
-    priceRangeLabel: "Indicative range",
-  },
-  {
-    id: "2",
-    title: "Mobile Development",
-    description: "Flutter & native Android (Kotlin, Jetpack Compose).",
-    icon: "mobile",
-    priceRangeUSD: "$800 – $2,500",
-    priceRangeFCFA: "480k – 1.5M FCFA",
-  },
-  {
-    id: "3",
-    title: "UX/UI Design",
-    description: "Interfaces with Figma — clear, usable, on brand.",
-    icon: "figma",
-    priceRangeUSD: "$300 – $1,200",
-    priceRangeFCFA: "180k – 720k FCFA",
-  },
-  {
-    id: "4",
-    title: "API Development",
-    description: "RESTful APIs with Django — robust & maintainable.",
-    icon: "laptop",
-    priceRangeUSD: "$400 – $1,500",
-    priceRangeFCFA: "240k – 900k FCFA",
   },
 ];
 

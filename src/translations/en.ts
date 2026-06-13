@@ -9,7 +9,6 @@ export const en = {
   nav: {
     about: "About",
     projects: "Projects",
-    services: "Services",
     contact: "Contact",
   },
 
@@ -145,36 +144,6 @@ export const en = {
         description:
           "A habit tracking application based on James Clear's Atomic Habits methodology. Build better habits using the 4 Laws of Behavior Change.",
       },
-    },
-  },
-
-  // Services Section
-  services: {
-    title: "Services",
-    priceRangeLabel: "Indicative range",
-    webDev: {
-      title: "Web Development",
-      description: "Modern web apps with Django, Next.js & React.",
-      priceRangeUSD: "$500 – $2,000",
-      priceRangeFCFA: "300k – 1.2M FCFA",
-    },
-    mobileDev: {
-      title: "Mobile Development",
-      description: "Flutter & native Android (Kotlin, Jetpack Compose).",
-      priceRangeUSD: "$800 – $2,500",
-      priceRangeFCFA: "480k – 1.5M FCFA",
-    },
-    uiux: {
-      title: "UX/UI Design",
-      description: "Interfaces with Figma — clear, usable, on brand.",
-      priceRangeUSD: "$300 – $1,200",
-      priceRangeFCFA: "180k – 720k FCFA",
-    },
-    api: {
-      title: "API Development",
-      description: "RESTful APIs with Django — robust & maintainable.",
-      priceRangeUSD: "$400 – $1,500",
-      priceRangeFCFA: "240k – 900k FCFA",
     },
   },
 
